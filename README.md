@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maestro - Connecting Tutors with Learners
 
-## Getting Started
+![Maestro Logo](./public/Demo.png)
 
-First, run the development server:
+**Maestro** is a web-based platform designed to connect dedicated tutors with eager learners, fostering academic growth and helping students excel in various subjects. The platform offers flexible learning options and personalized tutoring services to ensure both tutors and students have the best experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+At **Maestro**, we provide private tutoring across a variety of subjects, including Mathematics, Physics, Biology, Chemistry, and more. Whether you're a tutor ready to make an impact or a student unlocking new possibilities, Maestro simplifies the process of connecting and ensuring reliable, transformative educational experiences. Learners can choose between in-person or online tutoring, based on their preference and convenience.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Tutor Matching**: Efficiently matches students with tutors based on their needs and preferences.
+- **Subject Variety**: Tutoring available in core subjects such as Mathematics, Physics, Biology, Chemistry, and more.
+- **Flexible Learning**: Students can choose between in-person and online tutoring formats.
+- **User-Friendly Interface**: Simple and intuitive design, making it easy for tutors and learners to navigate.
+- **Responsive Design**: Ensures seamless use across all devices, from desktops to mobile phones.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project was built using the following technologies:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- React.js (with NextJS as the build tool)
+- TypeScript
+- Sass (for styling)
+- Firebase
