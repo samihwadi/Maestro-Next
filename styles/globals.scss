@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+$bgColor : #eaeae8;
+$bgDark : #d9d9d9;
+$footerColor: #282828;
+$accentColor: #ca9563;
+$subHeadingSize: 1.3em;
+$headingSize: 3em;
+
+@font-face {
+    font-family: 'Stratos Light';
+    src: url('../app/fonts/stratos-light-TRIAL-BF63c604a0abc54.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Stratos Bold';
+    src: url('../app/fonts/stratos-medium-TRIAL-BF63c604a121821.otf') format('opentype');
+}
+
+
+@mixin textFont {
+    font-family: "Stratos Light";
+}
+
+@mixin textBold {
+    font-family: "Stratos Bold";
+}
+
+@mixin headerFont {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+}
+
+@mixin headerBold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin removeDecor {
+    text-decoration: none;
+    color: unset;
+}
+
+@mixin defaultColor {
+    color: $footerColor;
+    background-color: $bgColor;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+    background-color: $bgColor;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $footerColor;
+    border-radius: 8px; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.App {
+    position: relative;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
